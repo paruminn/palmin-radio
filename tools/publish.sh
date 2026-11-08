@@ -12,6 +12,13 @@ NAME=$(git config user.name || echo myradio); EMAIL=$(git config user.email || e
 
 TMP=$(mktemp -d); trap 'rm -rf "$TMP"' EXIT
 git archive HEAD | tar -x -C "$TMP"              # what main has (committed)
+# Preserve recent audio already published on gh-pages. Audio is intentionally
+# excluded from main, so a clean Actions checkout otherwise erases every MP3.
+if git fetch -q origin gh-pages; then
+  if git cat-file -e "FETCH_HEAD:$DIR" 2>/dev/null; then
+    git archive FETCH_HEAD "$DIR" | tar -x -C "$TMP"
+  fi
+fi
 mkdir -p "$TMP/$DIR"
 n=0
 for f in "$DIR"/*; do                            # audio files named <YYYY-MM-DD>...; keep the recent ones
