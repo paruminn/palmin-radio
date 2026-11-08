@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ものラジオ</title>
+<title>パルミンラジオ</title>
 <link rel="icon" id="favicon" href="data:,">
 <script>if (/[?&]embed\b/.test(location.search)) document.documentElement.classList.add("embed")</script>
 <style>
@@ -431,7 +431,7 @@ html.phone #share span{display:none}
 <main>
   <div id="frame">
     <div id="stage">
-      <div class="brand"><i class="logo" id="slogo" hidden></i><b id="sname">ものラジオ</b><div class="epsel" id="epsel"><button class="epnav" id="epPrev" aria-label="前の回" title="前の回" hidden></button><button id="sdate" aria-haspopup="listbox" aria-expanded="false" aria-controls="eplist"><span></span><i></i></button><button class="epnav" id="epNext" aria-label="次の回" title="次の回" hidden></button><div id="eplist" role="listbox" aria-label="放送日"></div></div><div class="langsw" id="langsw" hidden></div></div>
+      <div class="brand"><i class="logo" id="slogo" hidden></i><b id="sname">パルミンラジオ</b><div class="epsel" id="epsel"><button class="epnav" id="epPrev" aria-label="前の回" title="前の回" hidden></button><button id="sdate" aria-haspopup="listbox" aria-expanded="false" aria-controls="eplist"><span></span><i></i></button><button class="epnav" id="epNext" aria-label="次の回" title="次の回" hidden></button><div id="eplist" role="listbox" aria-label="放送日"></div></div><div class="langsw" id="langsw" hidden></div></div>
       <div class="onair"><i></i>ON AIR</div>
       <nav id="toc" aria-label="目次"></nav>
       <div id="panel"></div>
@@ -489,11 +489,11 @@ const WEEK = "日月火水木金土";
 const UI = {
   ja: { share: "共有", copied: "コピーしました", resumeAt: t => `${t} から続きを再生`, from0: "最初から", heard: "聞いた", partway: t => `途中 ${t}`, rate: "再生速度", wxHere: "現在地", wxCredit: "天気：Open-Meteo（CC BY 4.0）", wxNoGeo: "位置情報が使えませんでした", wxPrompt: "右上から場所を選ぶと、天気が出ます", wxChoose: "場所を選ぶ", wxUseHere: "現在地にする", wxJapan: "日本", wxWorld: "世界", wxHi: "最高", wxLo: "最低", wxRain: "降水", copyHint: "押すとコピー", native: "共有…", copyLink: "リンクをコピー", copyEmbed: "埋め込みコードをコピー", openPage: "ページを開く", news: "ニュース", none: "詳細なし", jump: "この話題へ", bye: "またあした！", related: "関連記事", open: "記事をひらく ↗",
         notFound: c => `リンク先が見つかりませんでした（${c}）`, source: "出典", script: "台本を読む", past: "これまでの放送", talk: "コメント", talkNote: "書きこむには GitHub のアカウントが要ります。コメントは GitHub Discussions に保存され、ここは giscus.app から読みこんでいます。",
-        expired: "この回の音声は公開が終わりました（台本は下で読めます）", loading: "読み込み中…", empty: "まだ放送がありません",
+        expired: "この回の音声は公開が終わりました（台本は下で読めます）", loading: "読み込み中…", empty: "初回放送の準備中です",
         muted: "音声オフ・クリックでオン", sep: "・", colon: "：" },
   en: { share: "Share", copied: "Copied", resumeAt: t => `Resume from ${t}`, from0: "Start over", heard: "Heard", partway: t => `Stopped at ${t}`, rate: "Playback speed", wxHere: "Your area", wxCredit: "Weather: Open-Meteo (CC BY 4.0)", wxNoGeo: "Location not available", wxPrompt: "Choose a place (top right) to see its weather", wxChoose: "Choose", wxUseHere: "Use my location", wxJapan: "Japan", wxWorld: "World", wxHi: "H", wxLo: "L", wxRain: "Rain", copyHint: "Click to copy", native: "Share…", copyLink: "Copy link", copyEmbed: "Copy embed code", openPage: "Open the page", news: "News", none: "No details", jump: "Go to this story", bye: "See you tomorrow!", related: "Related", open: "Open article ↗",
         notFound: c => `Link not found (${c})`, source: "Source", script: "Read the script", past: "Past episodes", talk: "Comments", talkNote: "You need a GitHub account to comment. Comments are kept in GitHub Discussions, and this part loads from giscus.app.",
-        expired: "This episode's audio is no longer available (the script is below)", loading: "Loading…", empty: "No episodes yet",
+        expired: "This episode's audio is no longer available (the script is below)", loading: "Loading…", empty: "The first broadcast is being prepared",
         muted: "Sound off · click to turn on", sep: " · ", colon: ": " },
 };
 let LANG = "ja";
@@ -1084,7 +1084,7 @@ function talkShow() {
 $("talkBox").addEventListener("toggle", talkShow);
 // the station describes itself in station.json (name, what it broadcasts, logo, credits): this page and, later,
 // a channel guide read it
-let STATION = { name: "ものラジオ", credits: [] };
+let STATION = { name: "パルミンラジオ", credits: [] };
 // a station field in the current language: station.json may give "i18n": {"en": {"name", "tagline", "credits", ...}}
 const st = k => STATION.i18n?.[LANG]?.[k] ?? STATION[k];
 function setLang(l) {
@@ -1246,6 +1246,8 @@ async function loadStation() {
 async function init() {
   // the show plays even if the character cannot be drawn
   await Promise.all([loadStation(), loadCharacter().catch(e => console.warn("character", e))]);
+  // Apply station branding even before the first episode exists.
+  setLang(LANG);
   wxLoad();
   let r = 1; try { r = +localStorage.getItem("rate") || 1; } catch {}
   setRate(RATES.includes(r) ? r : 1);
