@@ -26,6 +26,9 @@
 
 詳しい選定基準は [NEWS_POLICY.md](NEWS_POLICY.md)、話し方は [CASTERS.md](CASTERS.md) を参照してください。
 
+## スマホで聴く
+公開ページをホーム画面に追加すると、アイコンからすぐ番組を開けます。手順は [スマホでの使い方](docs/phone.md) を参照してください。再生にはインターネット接続が必要です。
+
 ## 技術構成と公開
 この局は [myradio テンプレート](https://github.com/monoradio102/myradio) を利用しています。プレーヤーは台本 JSON と音声ファイルを読み込んで番組を再生します。
 
