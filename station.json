@@ -23,9 +23,12 @@
   },
   "credits": [
     "番組企画・キャスター設定：パルミンラジオ",
-    "音声：COEIROINK:つくよみちゃん（音声の共有時も利用規約を遵守してください https://coeiroink.com/terms）"
+    "レティシアの音声：COEIROINK:アンジーさん",
+    "フィーユの音声：COEIROINK:AI声優-朱花",
+    "シェロの音声：COEIROINK:アルマちゃん",
+    "音声の共有時もCOEIROINK利用規約を遵守してください：https://coeiroink.com/terms"
   ],
-  "caster": "音声テスト：COEIROINK:つくよみちゃん",
+  "caster": "声：アンジーさん・朱花・アルマちゃん",
   "audio": {
     "dir": "audio",
     "keep_days": 30

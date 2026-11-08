@@ -42,7 +42,7 @@
 | `news[]` | `label`（見出し）、`points`（要点の並び）、`lines`（話す文の並び）、`url`（出典）、`link`（リンクカード） |
 | `news[].details` | （任意）`points` と同じ並びの、要点ごとのくわしい説明（ない要点は `null`）。画面の要点を押すと、その下に説明が開く（ないときは「詳細なし」） |
 | `highlight` | （任意）締めで取り上げる「今日の注目」が `news` の何番目か（0 から）。締めの画面にそのニュースの画像が出る |
-| 話す文 | `{"say": "読み上げ用", "show": "字幕用"}` |
+| 話す文 | `{"say": "読み上げ用", "show": "字幕用", "speaker": "leticia"}`。`speaker` は任意で、`leticia`・`fille`・`shero` のいずれか。COEIROINK音声生成ツールが使い、プレーヤーは無視する |
 | `news[].link` | `{"url", "title", "site", "description", "image", "icon"}`。`image` はそのサイトが共有用に出している画像（OGP）の URL。保存はしない。開けなかったときは `status`（404 など）。出典以外の記事を使ったときは `found_by: "search"` で、元の出典は `news[].source_link` |
 | `seconds` | 声の長さ（秒） |
 | `lines_timed[]` | `{"start", "end", "show", "part"}`：文ごとの開始・終了の秒（声に合わせる） |

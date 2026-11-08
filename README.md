@@ -37,7 +37,14 @@
 - `CASTERS.md` — キャスター設定
 - `AGENTS.md` — AIによる局の設定・運用手順
 
-自動ニュース収集・台本作成・音声生成・GitHub Pages公開は、必要なAPIや実行環境を設定して動作確認した後に有効化します。現時点では未設定です。
+自動ニュース収集・自動台本作成・定期公開は、現時点では未設定です。ローカルの音声生成には下記のCOEIROINK用ツールを使えます。
+
+### COEIROINKで音声を作る
+`tools/coeiroink_audio.py` は、起動中のCOEIROINKを `127.0.0.1` のローカルAPI経由で呼び出し、台本の `speaker` 指定に合わせてMP3と再生タイミングを生成します。Python標準ライブラリとFFmpeg/FFprobeが必要です。出力音声は `audio/` に保存され、gitには入りません。音声生成後に公開する場合は `tools/publish.sh` を使います。
+
+```powershell
+python tools/coeiroink_audio.py episodes\2026-11-09-ja.json --ffmpeg C:\path\to\ffmpeg.exe --ffprobe C:\path\to\ffprobe.exe
+```
 
 ## ライセンス・素材
 プレーヤー等のプログラムは元テンプレートのライセンスに従います。テンプレート由来のキャラクター画像は仮素材として残しており、正式なキャスター画像・音声は今後、利用条件を確認したうえで設定します。
