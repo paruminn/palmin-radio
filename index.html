@@ -994,6 +994,7 @@ async function load(date, lang = LANG, at = 0) {
   // an episode can be remade under the same name: the made_at stamp keeps the browser from playing a cached older voice
   curName = name;
   audio.src = (ep.audio || `audio/${name}.mp3`) + `?v=${encodeURIComponent(ep.made_at || "")}`;
+  audio.load(); // explicitly begin loading metadata and audio on mobile browsers
   $("sdate").querySelector("span").textContent = dateFmt(date);
   $("langsw").hidden = langs.length < 2;
   $("langsw").innerHTML = langs.map(l => `<button data-lang="${l}" aria-pressed="${l === L}" title="${NAMES[l] || l}">${l.toUpperCase()}</button>`).join("");
@@ -1261,7 +1262,8 @@ async function init() {
   try { eps = await (await fetch("episodes.json", { cache: "no-store" })).json(); } catch {}
   if (!eps.length) { $("loading").textContent = tr("empty"); $("cover").hidden = true; return; }
   $("sdate").disabled = eps.length < 2;
-  EPS = eps; $("epPrev").hidden = $("epNext").hidden = eps.length < 2;
+  EPS = eps; listEpisodes(); // refresh the episode list after the index has loaded
+  $("epPrev").hidden = $("epNext").hidden = eps.length < 2;
   // #<date>/<lang> in the address, else the last language chosen here, else the browser's
   const [want, wantLang] = location.hash.slice(1).split("/");
   let saved = null; try { saved = localStorage.getItem("lang"); } catch {}
