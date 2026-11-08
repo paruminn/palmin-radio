@@ -22,6 +22,10 @@ jobs:
           fetch-depth: 0
 
       - name: Publish to GitHub Pages
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           chmod +x tools/publish.sh
           tools/publish.sh
