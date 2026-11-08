@@ -1,0 +1,32 @@
+{
+  "format": "monoradio/news-1",
+  "date": "2026-11-09",
+  "lang": "ja",
+  "title": "音声テスト（テスト放送）",
+  "opening": [
+    {
+      "say": "こんにちは。パルミンラジオの音声テストです。",
+      "show": "こんにちは。パルミンラジオの音声テストです。"
+    }
+  ],
+  "news": [],
+  "closing": [],
+  "seconds": 2.889,
+  "lines_timed": [
+    {
+      "start": 0.0,
+      "end": 2.889,
+      "show": "こんにちは。パルミンラジオの音声テストです。",
+      "part": 0
+    }
+  ],
+  "segments": [
+    {
+      "kind": "opening",
+      "index": null,
+      "start": 0.0,
+      "end": 2.889
+    }
+  ],
+  "made_at": "2026-11-09T00:00:00+09:00"
+}
