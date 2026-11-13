@@ -1,0 +1,37 @@
+{
+  "format": "myradio/station-1",
+  "name": "パルミンラジオ",
+  "description": "AI・ゲーム・音楽・ガジェットを中心に、科学技術や社会・世界の大切なニュースも届ける、パルミンのためのニュースラジオ。",
+  "tagline": "好きなことから、世界の新しい発見まで。",
+  "logo": "logo.svg",
+  "url": "https://paruminn.github.io/palmin-radio/",
+  "repo": "https://github.com/paruminn/palmin-radio",
+  "language": "ja",
+  "languages": [
+    "ja"
+  ],
+  "schedule": {
+    "every": "day",
+    "time": "06:20",
+    "timezone": "Asia/Tokyo"
+  },
+  "episodes": "episodes.json",
+  "character": {
+    "pack": "character/character.json",
+    "thumbnail": "character/base.png",
+    "note": "現在はテンプレート由来の仮キャラクター素材です。レティシア・フィーユ・シェロの正式な立ち絵・表情差分は今後差し替えます。"
+  },
+  "credits": [
+    "番組企画・キャスター設定：パルミンラジオ",
+    "レティシアの音声：COEIROINK:アンジーさん",
+    "フィーユの音声：COEIROINK:AI声優-朱花",
+    "シェロの音声：COEIROINK:アルマちゃん",
+    "音声の共有時もCOEIROINK利用規約を遵守してください：https://coeiroink.com/terms"
+  ],
+  "caster": "声：アンジーさん・朱花・アルマちゃん",
+  "audio": {
+    "dir": "audio",
+    "keep_days": 30
+  },
+  "weather": true
+}
