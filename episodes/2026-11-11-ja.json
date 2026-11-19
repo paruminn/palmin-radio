@@ -1,0 +1,232 @@
+{
+  "format": "monoradio/news-1",
+  "date": "2026-11-11",
+  "lang": "ja",
+  "title": "パルミンラジオ 2026-11-11",
+  "opening": [
+    {
+      "say": "おはようございます。2026-11-11のパルミンラジオです。今日は新着ニュースをお届けします。",
+      "show": "パルミンラジオ 2026-11-11",
+      "speaker": "fille"
+    }
+  ],
+  "news": [
+    {
+      "source_id": "N002",
+      "label": "AppleはAIで負けていない。ただし、エージェントでは後追いが効かない",
+      "points": [
+        "AppleはAIで負けていない。ただし、エージェントでは後追いが効かない",
+        "Apple Reportedly Wants Siri AI to Be More Agentic Next Year Apple Reportedly Wants Siri AI to Be More Agentic Next Year Apple wants Siri to take on always-on agents like Dots and Mu uk.pcmag.com Apple ..."
+      ],
+      "details": [
+        "AppleはAIで負けていない。ただし、エージェントでは後追いが効かない",
+        "Apple Reportedly Wants Siri AI to Be More Agentic Next Year Apple Reportedly Wants Siri AI to Be More Agentic Next Year Apple wants Siri to take on always-on agents like Dots and Mu uk.pcmag.com Apple ..."
+      ],
+      "lines": [
+        {
+          "say": "AI・デジタルのニュースです。AppleはAIで負けていない。ただし、エージェントでは後追いが効かない。",
+          "show": "AppleはAIで負けていない。ただし、エージェントでは後追いが効かない",
+          "speaker": "shero"
+        },
+        {
+          "say": "配信元の概要では、Apple Reportedly Wants Siri AI to Be More Agentic Next Year Apple Reportedly Wants Siri AI to Be More Agentic Next Year Apple wants Siri to take on always-on agents like Dots and Mu uk.pcmag.com Apple ...。",
+          "show": "Apple Reportedly Wants Siri AI to Be More Agentic Next Year Apple Reportedly Wants Siri AI to Be More Agentic Next Year Apple wants Siri to take on always-on agents like Dots and Mu uk.pcmag.com Apple ...",
+          "speaker": "leticia"
+        }
+      ],
+      "url": "https://note.com/touya_fujitani/n/n6ebc576ac131",
+      "source": "note",
+      "published": "2026-11-09T19:17+09:00"
+    },
+    {
+      "source_id": "N001",
+      "label": "生成AIニュース 昨日【2026年11月10日（火）】のAI公式発表を3分で ...",
+      "points": [
+        "生成AIニュース 昨日【2026年11月10日（火）】のAI公式発表を3分で ...",
+        "2026年11月10日（火）の生成AI・AI公式発表を全件解説します。 昨日はClaude Fable 5.2公開とAnthropicのIPOロードショー開始、Google DeepMindの暗号プロトコルAI形式検証などが話題です。 参考リンク：https://www.anthropic.com/claude-fable-and-mythos-5-2 関連記事（tech-noisy.com）：C ..."
+      ],
+      "details": [
+        "生成AIニュース 昨日【2026年11月10日（火）】のAI公式発表を3分で ...",
+        "2026年11月10日（火）の生成AI・AI公式発表を全件解説します。 昨日はClaude Fable 5.2公開とAnthropicのIPOロードショー開始、Google DeepMindの暗号プロトコルAI形式検証などが話題です。 参考リンク：https://www.anthropic.com/claude-fable-and-mythos-5-2 関連記事（tech-noisy.com）：C ..."
+      ],
+      "lines": [
+        {
+          "say": "AI・デジタルのニュースです。生成AIニュース 昨日【2026年11月10日（火）】のAI公式発表を3分で ...。",
+          "show": "生成AIニュース 昨日【2026年11月10日（火）】のAI公式発表を3分で ...",
+          "speaker": "shero"
+        },
+        {
+          "say": "配信元の概要では、2026年11月10日（火）の生成AI・AI公式発表を全件解説します。 昨日はClaude Fable 5.2公開とAnthropicのIPOロードショー開始、Google DeepMindの暗号プロトコルAI形式検証などが話題です。 参考リンク：https://www.anthropic.com/claude-fable-and-mythos-5-2 関連記事（tech-noisy.com）：C ...。",
+          "show": "2026年11月10日（火）の生成AI・AI公式発表を全件解説します。 昨日はClaude Fable 5.2公開とAnthropicのIPOロードショー開始、Google DeepMindの暗号プロトコルAI形式検証などが話題です。 参考リンク：https://www.anthropic.com/claude-fable-and-mythos-5-2 関連記事（tech-noisy.com）：C ...",
+          "speaker": "leticia"
+        }
+      ],
+      "url": "https://tech-noisy.com/2026/11/11/ai-daily-news-2026-11-10/",
+      "source": "tech-noisy",
+      "published": "2026-11-10T11:00+09:00"
+    },
+    {
+      "source_id": "N005",
+      "label": "何でもリバースエンジニアリング 生成AIで広がる ソフトウェアも ...",
+      "points": [
+        "何でもリバースエンジニアリング 生成AIで広がる ソフトウェアも ...",
+        "AIを使ってスマート家電のOSに手を加え、AIに生成させたコードに入れ替えて、広告を消したり自分好みの機能を付け加えたりする行為がちょっとしたブームになっている。ソフトウェアの改造が手軽にできるとうたった“何でもリバースエンジニアリング”（REA）というツールもGitHubで注目を集めているが、セキュリティ上のリスクも懸念されている。"
+      ],
+      "details": [
+        "何でもリバースエンジニアリング 生成AIで広がる ソフトウェアも ...",
+        "AIを使ってスマート家電のOSに手を加え、AIに生成させたコードに入れ替えて、広告を消したり自分好みの機能を付け加えたりする行為がちょっとしたブームになっている。ソフトウェアの改造が手軽にできるとうたった“何でもリバースエンジニアリング”（REA）というツールもGitHubで注目を集めているが、セキュリティ上のリスクも懸念されている。"
+      ],
+      "lines": [
+        {
+          "say": "AI・デジタルのニュースです。何でもリバースエンジニアリング 生成AIで広がる ソフトウェアも ...。",
+          "show": "何でもリバースエンジニアリング 生成AIで広がる ソフトウェアも ...",
+          "speaker": "shero"
+        },
+        {
+          "say": "配信元の概要では、AIを使ってスマート家電のOSに手を加え、AIに生成させたコードに入れ替えて、広告を消したり自分好みの機能を付け加えたりする行為がちょっとしたブームになっている。ソフトウェアの改造が手軽にできるとうたった“何でもリバースエンジニアリング”（REA）というツールもGitHubで注目を集めているが、セキュリティ上のリスクも懸念されている。",
+          "show": "AIを使ってスマート家電のOSに手を加え、AIに生成させたコードに入れ替えて、広告を消したり自分好みの機能を付け加えたりする行為がちょっとしたブームになっている。ソフトウェアの改造が手軽にできるとうたった“何でもリバースエンジニアリング”（REA）というツールもGitHubで注目を集めているが、セキュリティ上のリスクも懸念されている。",
+          "speaker": "leticia"
+        }
+      ],
+      "url": "https://www.msn.com/ja-jp/technology/artificial-intelligence/%E4%BD%95%E3%81%A7%E3%82%82%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B9%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0-%E7%94%9F%E6%88%90ai%E3%81%A7%E5%BA%83%E3%81%8C%E3%82%8B-%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%82%82%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E5%AE%B6%E9%9B%BB%E3%82%82%E6%89%8B%E8%BB%BD%E3%81%AB%E6%94%B9%E9%80%A0-%E3%83%96%E3%83%BC%E3%83%A0%E3%81%AB%E6%BD%9C%E3%82%80%E5%8D%B1%E9%99%BA/ar-AA2h6oM4",
+      "source": "ITmedia on MSN",
+      "published": "2026-11-10T03:03+09:00"
+    },
+    {
+      "source_id": "N003",
+      "label": "セキュリティ対策／AI利用管理／データ管理の3分野で製品を拡充",
+      "points": [
+        "セキュリティ対策／AI利用管理／データ管理の3分野で製品を拡充",
+        "伊藤忠テクノソリューションズ（CTC）は11月10日、企業におけるAIの全社展開を支援するため、クラウドセキュリティ対策、AIの利用状況の把握、データ管理に関する製品群の取り扱いを開始すると発表した。サイバーセキュリティクラウド／Kong／MongoDBの3社の製品をAWS Marketplaceを通じて販売する。関連する製品・サービスの提供で、3年間で100億円の売上を目指す。"
+      ],
+      "details": [
+        "セキュリティ対策／AI利用管理／データ管理の3分野で製品を拡充",
+        "伊藤忠テクノソリューションズ（CTC）は11月10日、企業におけるAIの全社展開を支援するため、クラウドセキュリティ対策、AIの利用状況の把握、データ管理に関する製品群の取り扱いを開始すると発表した。サイバーセキュリティクラウド／Kong／MongoDBの3社の製品をAWS Marketplaceを通じて販売する。関連する製品・サービスの提供で、3年間で100億円の売上を目指す。"
+      ],
+      "lines": [
+        {
+          "say": "AI・デジタルのニュースです。セキュリティ対策／AI利用管理／データ管理の3分野で製品を拡充。",
+          "show": "セキュリティ対策／AI利用管理／データ管理の3分野で製品を拡充",
+          "speaker": "shero"
+        },
+        {
+          "say": "配信元の概要では、伊藤忠テクノソリューションズ（CTC）は11月10日、企業におけるAIの全社展開を支援するため、クラウドセキュリティ対策、AIの利用状況の把握、データ管理に関する製品群の取り扱いを開始すると発表した。サイバーセキュリティクラウド／Kong／MongoDBの3社の製品をAWS Marketplaceを通じて販売する。関連する製品・サービスの提供で、3年間で100億円の売上を目指す。",
+          "show": "伊藤忠テクノソリューションズ（CTC）は11月10日、企業におけるAIの全社展開を支援するため、クラウドセキュリティ対策、AIの利用状況の把握、データ管理に関する製品群の取り扱いを開始すると発表した。サイバーセキュリティクラウド／Kong／MongoDBの3社の製品をAWS Marketplaceを通じて販売する。関連する製品・サービスの提供で、3年間で100億円の売上を目指す。",
+          "speaker": "leticia"
+        }
+      ],
+      "url": "https://news.mynavi.jp/techplus/article/20261110-5296122/",
+      "source": "マイナビニュース",
+      "published": "2026-11-10T21:45+09:00"
+    }
+  ],
+  "closing": [
+    {
+      "say": "以上、今日のニュースでした。各話題の出典は番組ページに掲載しています。それでは、また次の放送で。",
+      "show": "今日のニュースでした。出典は番組ページに掲載しています。",
+      "speaker": "leticia"
+    }
+  ],
+  "seconds": 235.062,
+  "lines_timed": [
+    {
+      "start": 0.0,
+      "end": 8.446,
+      "show": "パルミンラジオ 2026-11-11",
+      "part": 0
+    },
+    {
+      "start": 8.446,
+      "end": 17.727,
+      "show": "AppleはAIで負けていない。ただし、エージェントでは後追いが効かない",
+      "part": 1
+    },
+    {
+      "start": 17.727,
+      "end": 78.163,
+      "show": "Apple Reportedly Wants Siri AI to Be More Agentic Next Year Apple Reportedly Wants Siri AI to Be More Agentic Next Year Apple wants Siri to take on always-on agents like Dots and Mu uk.pcmag.com Apple ...",
+      "part": 1
+    },
+    {
+      "start": 78.163,
+      "end": 90.799,
+      "show": "生成AIニュース 昨日【2026年11月10日（火）】のAI公式発表を3分で ...",
+      "part": 2
+    },
+    {
+      "start": 90.799,
+      "end": 139.532,
+      "show": "2026年11月10日（火）の生成AI・AI公式発表を全件解説します。 昨日はClaude Fable 5.2公開とAnthropicのIPOロードショー開始、Google DeepMindの暗号プロトコルAI形式検証などが話題です。 参考リンク：https://www.anthropic.com/claude-fable-and-mythos-5-2 関連記事（tech-noisy.com）：C ...",
+      "part": 2
+    },
+    {
+      "start": 139.532,
+      "end": 148.953,
+      "show": "何でもリバースエンジニアリング 生成AIで広がる ソフトウェアも ...",
+      "part": 3
+    },
+    {
+      "start": 148.953,
+      "end": 177.019,
+      "show": "AIを使ってスマート家電のOSに手を加え、AIに生成させたコードに入れ替えて、広告を消したり自分好みの機能を付け加えたりする行為がちょっとしたブームになっている。ソフトウェアの改造が手軽にできるとうたった“何でもリバースエンジニアリング”（REA）というツールもGitHubで注目を集めているが、セキュリティ上のリスクも懸念されている。",
+      "part": 3
+    },
+    {
+      "start": 177.019,
+      "end": 186.777,
+      "show": "セキュリティ対策／AI利用管理／データ管理の3分野で製品を拡充",
+      "part": 4
+    },
+    {
+      "start": 186.777,
+      "end": 225.316,
+      "show": "伊藤忠テクノソリューションズ（CTC）は11月10日、企業におけるAIの全社展開を支援するため、クラウドセキュリティ対策、AIの利用状況の把握、データ管理に関する製品群の取り扱いを開始すると発表した。サイバーセキュリティクラウド／Kong／MongoDBの3社の製品をAWS Marketplaceを通じて販売する。関連する製品・サービスの提供で、3年間で100億円の売上を目指す。",
+      "part": 4
+    },
+    {
+      "start": 225.316,
+      "end": 235.062,
+      "show": "今日のニュースでした。出典は番組ページに掲載しています。",
+      "part": 5
+    }
+  ],
+  "segments": [
+    {
+      "kind": "opening",
+      "index": null,
+      "start": 0.0,
+      "end": 8.446
+    },
+    {
+      "kind": "news",
+      "index": 0,
+      "start": 8.446,
+      "end": 78.163
+    },
+    {
+      "kind": "news",
+      "index": 1,
+      "start": 78.163,
+      "end": 139.532
+    },
+    {
+      "kind": "news",
+      "index": 2,
+      "start": 139.532,
+      "end": 177.019
+    },
+    {
+      "kind": "news",
+      "index": 3,
+      "start": 177.019,
+      "end": 225.316
+    },
+    {
+      "kind": "closing",
+      "index": null,
+      "start": 225.316,
+      "end": 235.062
+    }
+  ],
+  "made_at": "2026-11-11T06:24:17+09:00"
+}

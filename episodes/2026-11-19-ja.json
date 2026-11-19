@@ -1,0 +1,277 @@
+{
+  "format": "monoradio/news-1",
+  "date": "2026-11-19",
+  "lang": "ja",
+  "title": "パルミンラジオ 2026-11-19",
+  "opening": [
+    {
+      "say": "おはようございます。2026-11-19のパルミンラジオです。今日は新着ニュースをお届けします。",
+      "show": "パルミンラジオ 2026-11-19",
+      "speaker": "fille"
+    }
+  ],
+  "news": [
+    {
+      "source_id": "N005",
+      "label": "「独特な操作感そのものを遊びにするインディーゲームからも多く ...",
+      "points": [
+        "「独特な操作感そのものを遊びにするインディーゲームからも多く ...",
+        "気になる新作インディーゲームの開発者にインタビューする本企画。今回は、Luke Muscat氏開発、PC/Mac向けに9月21日にリリースされた自称“普通”ゴルフゲーム『Normal Golf Game』開発者へのミニインタビューをお届けします。"
+      ],
+      "details": [
+        "「独特な操作感そのものを遊びにするインディーゲームからも多く ...",
+        "気になる新作インディーゲームの開発者にインタビューする本企画。今回は、Luke Muscat氏開発、PC/Mac向けに9月21日にリリースされた自称“普通”ゴルフゲーム『Normal Golf Game』開発者へのミニインタビューをお届けします。"
+      ],
+      "lines": [
+        {
+          "say": "ゲームのニュースです。「独特な操作感そのものを遊びにするインディーゲームからも多く ...。",
+          "show": "「独特な操作感そのものを遊びにするインディーゲームからも多く ...",
+          "speaker": "fille"
+        },
+        {
+          "say": "配信元の概要では、気になる新作インディーゲームの開発者にインタビューする本企画。今回は、Luke Muscat氏開発、PC/Mac向けに9月21日にリリースされた自称“普通”ゴルフゲーム『Normal Golf Game』開発者へのミニインタビューをお届けします。",
+          "show": "気になる新作インディーゲームの開発者にインタビューする本企画。今回は、Luke Muscat氏開発、PC/Mac向けに9月21日にリリースされた自称“普通”ゴルフゲーム『Normal Golf Game』開発者へのミニインタビューをお届けします。",
+          "speaker": "leticia"
+        }
+      ],
+      "url": "https://www.gamespark.jp/article/2026/11/18/175027.html",
+      "source": "Game*Spark",
+      "published": "2026-11-18T18:45+09:00"
+    },
+    {
+      "source_id": "N001",
+      "label": "AI時代に必要なエンジニアのスキルとは？ 開発現場の“品質問題 ...",
+      "points": [
+        "AI時代に必要なエンジニアのスキルとは？ 開発現場の“品質問題 ...",
+        "AI時代に求められるエンジニアのスキルセットは明確です。リスクを見極める力、品質を設計する力、AIの出力を評価する力、自動化を活用する力、そしてビジネス影響を理解する力です。最も速くコードを書く人ではなく、信頼できるソフトウェアを届けるための判断ができる人材こそが、AIエージェント時代の開発組織に不可欠になります。"
+      ],
+      "details": [
+        "AI時代に必要なエンジニアのスキルとは？ 開発現場の“品質問題 ...",
+        "AI時代に求められるエンジニアのスキルセットは明確です。リスクを見極める力、品質を設計する力、AIの出力を評価する力、自動化を活用する力、そしてビジネス影響を理解する力です。最も速くコードを書く人ではなく、信頼できるソフトウェアを届けるための判断ができる人材こそが、AIエージェント時代の開発組織に不可欠になります。"
+      ],
+      "lines": [
+        {
+          "say": "AI・デジタルのニュースです。AI時代に必要なエンジニアのスキルとは？ 開発現場の“品質問題 ...。",
+          "show": "AI時代に必要なエンジニアのスキルとは？ 開発現場の“品質問題 ...",
+          "speaker": "shero"
+        },
+        {
+          "say": "配信元の概要では、AI時代に求められるエンジニアのスキルセットは明確です。リスクを見極める力、品質を設計する力、AIの出力を評価する力、自動化を活用する力、そしてビジネス影響を理解する力です。最も速くコードを書く人ではなく、信頼できるソフトウェアを届けるための判断ができる人材こそが、AIエージェント時代の開発組織に不可欠になります。",
+          "show": "AI時代に求められるエンジニアのスキルセットは明確です。リスクを見極める力、品質を設計する力、AIの出力を評価する力、自動化を活用する力、そしてビジネス影響を理解する力です。最も速くコードを書く人ではなく、信頼できるソフトウェアを届けるための判断ができる人材こそが、AIエージェント時代の開発組織に不可欠になります。",
+          "speaker": "leticia"
+        }
+      ],
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/18/2000003236/",
+      "source": "ITmedia",
+      "published": "2026-11-18T01:00+09:00"
+    },
+    {
+      "source_id": "N002",
+      "label": "生成AI・AIエージェント向けセキュリティ「Aurascape」が日本初上陸 ...",
+      "points": [
+        "生成AI・AIエージェント向けセキュリティ「Aurascape」が日本初上陸 ...",
+        "プロンプト、応答、AIエージェントのツール呼び出しまで、生成AIとのやり取りの中身を確認して保護 ネクストモード株式会社（本社：東京都新宿区、代表取締役社長：里見 宗律、以下 ネクストモード）は、Aurascape, Inc.（本社：米国カリフォルニア州サンタクララ、共同創業者・CEO：Mo ..."
+      ],
+      "details": [
+        "生成AI・AIエージェント向けセキュリティ「Aurascape」が日本初上陸 ...",
+        "プロンプト、応答、AIエージェントのツール呼び出しまで、生成AIとのやり取りの中身を確認して保護 ネクストモード株式会社（本社：東京都新宿区、代表取締役社長：里見 宗律、以下 ネクストモード）は、Aurascape, Inc.（本社：米国カリフォルニア州サンタクララ、共同創業者・CEO：Mo ..."
+      ],
+      "lines": [
+        {
+          "say": "AI・デジタルのニュースです。生成AI・AIエージェント向けセキュリティ「Aurascape」が日本初上陸 ...。",
+          "show": "生成AI・AIエージェント向けセキュリティ「Aurascape」が日本初上陸 ...",
+          "speaker": "shero"
+        },
+        {
+          "say": "配信元の概要では、プロンプト、応答、AIエージェントのツール呼び出しまで、生成AIとのやり取りの中身を確認して保護 ネクストモード株式会社（本社：東京都新宿区、代表取締役社長：里見 宗律、以下 ネクストモード）は、Aurascape, Inc.（本社：米国カリフォルニア州サンタクララ、共同創業者・CEO：Mo ...。",
+          "show": "プロンプト、応答、AIエージェントのツール呼び出しまで、生成AIとのやり取りの中身を確認して保護 ネクストモード株式会社（本社：東京都新宿区、代表取締役社長：里見 宗律、以下 ネクストモード）は、Aurascape, Inc.（本社：米国カリフォルニア州サンタクララ、共同創業者・CEO：Mo ...",
+          "speaker": "leticia"
+        }
+      ],
+      "url": "https://mainichi.jp/articles/20261117/pr2/00m/020/724000c",
+      "source": "毎日新聞デジタル",
+      "published": "2026-11-17T12:00+09:00"
+    },
+    {
+      "source_id": "N004",
+      "label": "企業は音声AIエージェントをプロトタイプから本番環境へどう移行 ...",
+      "points": [
+        "企業は音声AIエージェントをプロトタイプから本番環境へどう移行 ...",
+        "Voice AI agents are moving beyond customer conversations to handle business transactions, where reliable integrations and human oversight are essential for successful deployment. Image generated via C ..."
+      ],
+      "details": [
+        "企業は音声AIエージェントをプロトタイプから本番環境へどう移行 ...",
+        "Voice AI agents are moving beyond customer conversations to handle business transactions, where reliable integrations and human oversight are essential for successful deployment. Image generated via C ..."
+      ],
+      "lines": [
+        {
+          "say": "AI・デジタルのニュースです。企業は音声AIエージェントをプロトタイプから本番環境へどう移行 ...。",
+          "show": "企業は音声AIエージェントをプロトタイプから本番環境へどう移行 ...",
+          "speaker": "shero"
+        },
+        {
+          "say": "配信元の概要では、Voice AI agents are moving beyond customer conversations to handle business transactions, where reliable integrations and human oversight are essential for successful deployment. Image generated via C ...。",
+          "show": "Voice AI agents are moving beyond customer conversations to handle business transactions, where reliable integrations and human oversight are essential for successful deployment. Image generated via C ...",
+          "speaker": "leticia"
+        }
+      ],
+      "url": "https://www.eweek.com/ja/artificial-intelligence/voice-ai-agents-prototype-to-production-ja/",
+      "source": "eWeek",
+      "published": "2026-11-18T17:00+09:00"
+    },
+    {
+      "source_id": "N007",
+      "label": "NVIDIA、エージェントによる科学的発見を加速するNemotron for Science を ...",
+      "points": [
+        "NVIDIA、エージェントによる科学的発見を加速するNemotron for Science を ...",
+        "- LitmusBench v0.2 は、化学リーズニングの評価とポスト トレーニングの両方に対応し、研究者によるモデルの能力評価と科学的タスクへの適応を支援 - NVIDIA DGX Spark とデータセンター インフラにより、Nemotron 3.5 Super VL を研究者のデスクトップからスーパーコンピューティング センターまで展開し、組織が管理するインフラ上で安全な科学研究ワークフロ ..."
+      ],
+      "details": [
+        "NVIDIA、エージェントによる科学的発見を加速するNemotron for Science を ...",
+        "- LitmusBench v0.2 は、化学リーズニングの評価とポスト トレーニングの両方に対応し、研究者によるモデルの能力評価と科学的タスクへの適応を支援 - NVIDIA DGX Spark とデータセンター インフラにより、Nemotron 3.5 Super VL を研究者のデスクトップからスーパーコンピューティング センターまで展開し、組織が管理するインフラ上で安全な科学研究ワークフロ ..."
+      ],
+      "lines": [
+        {
+          "say": "科学・技術のニュースです。NVIDIA、エージェントによる科学的発見を加速するNemotron for Science を ...。",
+          "show": "NVIDIA、エージェントによる科学的発見を加速するNemotron for Science を ...",
+          "speaker": "shero"
+        },
+        {
+          "say": "配信元の概要では、- LitmusBench v0.2 は、化学リーズニングの評価とポスト トレーニングの両方に対応し、研究者によるモデルの能力評価と科学的タスクへの適応を支援 - NVIDIA DGX Spark とデータセンター インフラにより、Nemotron 3.5 Super VL を研究者のデスクトップからスーパーコンピューティング センターまで展開し、組織が管理するインフラ上で安全な科学研究ワークフロ ...。",
+          "show": "- LitmusBench v0.2 は、化学リーズニングの評価とポスト トレーニングの両方に対応し、研究者によるモデルの能力評価と科学的タスクへの適応を支援 - NVIDIA DGX Spark とデータセンター インフラにより、Nemotron 3.5 Super VL を研究者のデスクトップからスーパーコンピューティング センターまで展開し、組織が管理するインフラ上で安全な科学研究ワークフロ ...",
+          "speaker": "leticia"
+        }
+      ],
+      "url": "https://www.sankei.com/pressrelease/prtimes/27BEC4FT2NORRAOXHZMEMI77M4/",
+      "source": "産経ニュース",
+      "published": "2026-11-17T12:32+09:00"
+    }
+  ],
+  "closing": [
+    {
+      "say": "以上、今日のニュースでした。各話題の出典は番組ページに掲載しています。それでは、また次の放送で。",
+      "show": "今日のニュースでした。出典は番組ページに掲載しています。",
+      "speaker": "leticia"
+    }
+  ],
+  "seconds": 256.853,
+  "lines_timed": [
+    {
+      "start": 0.0,
+      "end": 8.33,
+      "show": "パルミンラジオ 2026-11-19",
+      "part": 0
+    },
+    {
+      "start": 8.33,
+      "end": 14.5,
+      "show": "「独特な操作感そのものを遊びにするインディーゲームからも多く ...",
+      "part": 1
+    },
+    {
+      "start": 14.5,
+      "end": 41.916,
+      "show": "気になる新作インディーゲームの開発者にインタビューする本企画。今回は、Luke Muscat氏開発、PC/Mac向けに9月21日にリリースされた自称“普通”ゴルフゲーム『Normal Golf Game』開発者へのミニインタビューをお届けします。",
+      "part": 1
+    },
+    {
+      "start": 41.916,
+      "end": 51.558,
+      "show": "AI時代に必要なエンジニアのスキルとは？ 開発現場の“品質問題 ...",
+      "part": 2
+    },
+    {
+      "start": 51.558,
+      "end": 80.762,
+      "show": "AI時代に求められるエンジニアのスキルセットは明確です。リスクを見極める力、品質を設計する力、AIの出力を評価する力、自動化を活用する力、そしてビジネス影響を理解する力です。最も速くコードを書く人ではなく、信頼できるソフトウェアを届けるための判断ができる人材こそが、AIエージェント時代の開発組織に不可欠になります。",
+      "part": 2
+    },
+    {
+      "start": 80.762,
+      "end": 93.062,
+      "show": "生成AI・AIエージェント向けセキュリティ「Aurascape」が日本初上陸 ...",
+      "part": 3
+    },
+    {
+      "start": 93.062,
+      "end": 128.896,
+      "show": "プロンプト、応答、AIエージェントのツール呼び出しまで、生成AIとのやり取りの中身を確認して保護 ネクストモード株式会社（本社：東京都新宿区、代表取締役社長：里見 宗律、以下 ネクストモード）は、Aurascape, Inc.（本社：米国カリフォルニア州サンタクララ、共同創業者・CEO：Mo ...",
+      "part": 3
+    },
+    {
+      "start": 128.896,
+      "end": 137.771,
+      "show": "企業は音声AIエージェントをプロトタイプから本番環境へどう移行 ...",
+      "part": 4
+    },
+    {
+      "start": 137.771,
+      "end": 193.818,
+      "show": "Voice AI agents are moving beyond customer conversations to handle business transactions, where reliable integrations and human oversight are essential for successful deployment. Image generated via C ...",
+      "part": 4
+    },
+    {
+      "start": 193.818,
+      "end": 206.118,
+      "show": "NVIDIA、エージェントによる科学的発見を加速するNemotron for Science を ...",
+      "part": 5
+    },
+    {
+      "start": 206.118,
+      "end": 247.107,
+      "show": "- LitmusBench v0.2 は、化学リーズニングの評価とポスト トレーニングの両方に対応し、研究者によるモデルの能力評価と科学的タスクへの適応を支援 - NVIDIA DGX Spark とデータセンター インフラにより、Nemotron 3.5 Super VL を研究者のデスクトップからスーパーコンピューティング センターまで展開し、組織が管理するインフラ上で安全な科学研究ワークフロ ...",
+      "part": 5
+    },
+    {
+      "start": 247.107,
+      "end": 256.853,
+      "show": "今日のニュースでした。出典は番組ページに掲載しています。",
+      "part": 6
+    }
+  ],
+  "segments": [
+    {
+      "kind": "opening",
+      "index": null,
+      "start": 0.0,
+      "end": 8.33
+    },
+    {
+      "kind": "news",
+      "index": 0,
+      "start": 8.33,
+      "end": 41.916
+    },
+    {
+      "kind": "news",
+      "index": 1,
+      "start": 41.916,
+      "end": 80.762
+    },
+    {
+      "kind": "news",
+      "index": 2,
+      "start": 80.762,
+      "end": 128.896
+    },
+    {
+      "kind": "news",
+      "index": 3,
+      "start": 128.896,
+      "end": 193.818
+    },
+    {
+      "kind": "news",
+      "index": 4,
+      "start": 193.818,
+      "end": 247.107
+    },
+    {
+      "kind": "closing",
+      "index": null,
+      "start": 247.107,
+      "end": 256.853
+    }
+  ],
+  "made_at": "2026-11-19T06:23:42+09:00"
+}
