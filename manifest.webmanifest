@@ -1,0 +1,32 @@
+{
+  "id": "./",
+  "name": "パルミンラジオ",
+  "short_name": "パルミンラジオ",
+  "description": "好きなことから、世界の新しい発見まで。パルミン向けニュースラジオ。",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#07080c",
+  "theme_color": "#0c0e14",
+  "icons": [
+    {
+      "src": "icons/radio-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/radio-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/radio-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
